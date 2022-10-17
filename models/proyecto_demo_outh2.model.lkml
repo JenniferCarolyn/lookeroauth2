@@ -16,3 +16,5 @@ explore: fct_valoracion_clientes {}
 explore: lkp_conceptos_valoracion {}
 
 explore: lkp_conceptos_valoracion_agrupaciones {}
+
+explore: airflow_monitoring {}
