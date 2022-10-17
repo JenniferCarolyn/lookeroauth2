@@ -11,4 +11,8 @@ datagroup: proyecto_demo_outh2_default_datagroup {
 
 persist_with: proyecto_demo_outh2_default_datagroup
 
-explore: delta_lkp_conceptos_valoracion_agrupaciones {}
+explore: fct_valoracion_clientes {}
+
+explore: lkp_conceptos_valoracion {}
+
+explore: lkp_conceptos_valoracion_agrupaciones {}
