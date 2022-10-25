@@ -18,7 +18,7 @@ access_grant: ver_columnas {
 persist_with: proyecto_demo_outh2_default_datagroup
 
 explore: fct_valoracion_clientes {
-  required_access_grants: [ver_columnas]
+
 }
 
 explore: lkp_conceptos_valoracion {}
