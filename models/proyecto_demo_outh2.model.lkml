@@ -10,6 +10,11 @@ datagroup: proyecto_demo_outh2_default_datagroup {
   max_cache_age: "1 hour"
 }
 
+access_grant: ver_columnas {
+  allowed_values: ["Columna"]
+  user_attribute: grupo_2
+}
+
 persist_with: proyecto_demo_outh2_default_datagroup
 
 explore: fct_valoracion_clientes {}

@@ -12,6 +12,7 @@ view: fct_valoracion_clientes {
   # This dimension will be called "Banca Key" in Explore.
 
   dimension: banca_key {
+    required_access_grants: [ver_columnas]
     type: number
     sql: ${TABLE}.Banca_Key ;;
   }
