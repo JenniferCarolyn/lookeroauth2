@@ -1,5 +1,5 @@
 # Define the database connection to be used for this model.
-connection: "ntt_data_argentina_macro"
+connection: "prueba_seguridad"
 include: "/views/**/*.view"
 label: "Prueba Seguridad"
 # Datagroups define a caching policy for an Explore. To learn more,
