@@ -18,7 +18,10 @@ access_grant: ver_columnas {
 persist_with: proyecto_demo_outh2_default_datagroup
 
 explore: fct_valoracion_clientes {
-
+  access_filter: {
+    field: motivo_exclusion
+    user_attribute: grupo_2
+  }
 }
 
 explore: lkp_conceptos_valoracion {}
